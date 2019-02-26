@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEDF1;
+    margin: 0;
+    padding:0;
+    min-height: 100vh;
+}
+
+ul{
+   list-style-type: none ;
+   padding: 0;
+   margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.main-title{
+    color: #4D4D4D;
+}
+
+.main{
+display: flex;
+flex: 1;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.brands{
+display: flex;
+justify-content: space-around ;
+}
+.brands li{
+    padding: 5px;
+    color: #4D4D4D
+}
+
+.form-container{
+    text-align: center;
+    width: 40%;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid  #c7c7c7;
+}
+.form-title{
+    font-size: 25px;
+    color:  #4D4D4D;
+}
+.form-description{
+    text-align: center;
+    margin: 0;
+    padding: 20px 5px;
+    font-size: 15;
+}
