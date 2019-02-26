@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding:0;
     min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul{
@@ -38,7 +39,7 @@ justify-content: space-around ;
 
 .form-container{
     text-align: center;
-    width: 40%;
+    width: 35%;
     margin: 0;
     padding: 20px;
     background-color: white;
@@ -53,4 +54,57 @@ justify-content: space-around ;
     margin: 0;
     padding: 20px 5px;
     font-size: 15;
+}
+
+
+
+
+
+
+
+.form-fields{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    /* text-align: left; */
+}
+.form-fields label{
+    text-align: left;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #4D4D4D;
+
+}
+/* 
+label{
+    font-size: 10px;
+    color: #4D4D4D;
+} */
+
+.form-fields input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #4D4D4D;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+    
+    
+}
+
+.submit-button{
+    background-color:#2361CD;
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 30px 0;
+
+    
 }

@@ -24,18 +24,18 @@
       <form action="/signup" method="GET">
         <fieldset class="form-fields">
           <label>Email address
-            <input type="email" required>
+            <input type="email" name="user-email" required>
           </label>
           <label>
             Phone
-            <input type="tel">
+            <input type="tel" name="phone">
           </label>
           <label>
             password
-            <input type="password" required>
+            <input type="password" name="password" required>
           </label>
         </fieldset>
-        <button type="submit">Create Account</button>
+        <button type="submit" class="submit-button" >Create Account</button>
       </form>
       <p class="privacy">By clicking Create Account, you agree to our <a href="#">License Agreement</a> and have read and acknowledge our <a href="#">Privacy Statement</a></p>
       <div class="form-footer">
