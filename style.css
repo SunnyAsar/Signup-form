@@ -41,26 +41,24 @@ justify-content: space-around ;
     text-align: center;
     width: 35%;
     margin: 0;
-    padding: 20px;
+    padding: 0px;
     background-color: white;
     border: 1px solid  #c7c7c7;
 }
+.form-main{
+    margin: 0;
+    padding: 20px;
+}
 .form-title{
-    font-size: 25px;
+    font-size: 20px;
     color:  #4D4D4D;
 }
 .form-description{
     text-align: center;
     margin: 0;
     padding: 20px 5px;
-    font-size: 15;
+    font-size: 13px;
 }
-
-
-
-
-
-
 
 .form-fields{
     padding: 0;
@@ -107,4 +105,17 @@ label{
     margin: 30px 0;
 
     
+}
+.privacy{
+    font-size: 14px;
+}
+.form-footer{
+    background-color: #EBEDF1;
+    /* border-top: 1px solid ; */
+}
+
+.form-footer p{
+    margin: 0px;
+    font-size: 10px;
+    padding: 20px;
 }
